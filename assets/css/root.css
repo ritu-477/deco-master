@@ -1,0 +1,29 @@
+:root {
+    /* font-size */
+    --fs-xsm: 10.24px;
+    --fs-sm: 12.8px;
+    --fs-xlg: 16px;
+    --fs-md: 18px;
+    --fs-lg: 24px;
+    --fs-xl: 36px;
+    --fs-xxl: 48px;
+    --fs-xxxl: 64px;
+    --fs-xxxxl: 144px;
+    /* font-color */
+    --fc-black: #000000;
+    --fc-primary-black: #4d4d4d;
+    --fc-gray: #eeeeee;
+    --fc-primary-gray: #f0f0f0;
+    --fc-white: #fff;
+    --fc-blue: #010080;
+    --fc-green: #d2da60;
+    --fc-purple: #9003e5;
+    --fc-linear-purple1: #9104e5;
+    --fc-linear-purple2: #f93b96;
+    --fc-linear-yellow1: #f9af0a;
+    --fc-linear-yellow2: #92aa61;
+    --fc-linear-blue1: #1798bc;
+    --fc-linear-blue2: #0185d3;
+    --fc-linear-primary-blue1: #7142a2;
+    --fc-linear-primary-blue2: #b31376;
+}
