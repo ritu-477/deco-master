@@ -30,3 +30,8 @@
     --fc-linear-primary-blue1: #7142a2;
     --fc-linear-primary-blue2: #b31376;
 }
+@media(min-width:576px){
+    .m-heading{
+    --fs-xl: 48px;
+    }
+}

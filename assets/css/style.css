@@ -93,10 +93,51 @@
     -webkit-mask-composite: xor;
     mask-composite: exclude;
 }
-
-
-
 /* ...................................hero-section............................ */
+.max-w-1308{
+    max-width: 1308px;
+}
+.m-heading{
+    font-family: 'Poppins', sans-serif;
+        font-size: var(--fs-xl);
+        font-weight: 700;
+        line-height: 72px;
+        text-align: left;
+        color: var(--fc-black);
+}
+.py-sec-1{
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+.absolute1{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.absolute2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.circle1 {
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(90deg,  var(--fc-linear-yellow1) 0%, var(--fc-linear-yellow2) 85%);
+    border-radius: 50px;
+}
+.circle2 {
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(90deg, var(--fc-linear-blue1) 0%, var(--fc-linear-blue2) 85%);
+    border-radius: 50px;
+}
+.circle3 {
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(90deg, var(--fc-linear-primary-blue1) 0%, var(--fc-linear-primary-blue2) 85%);
+    border-radius: 50px;
+}
+
 
 
 
