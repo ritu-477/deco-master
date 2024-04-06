@@ -137,6 +137,24 @@
     background: linear-gradient(90deg, var(--fc-linear-primary-blue1) 0%, var(--fc-linear-primary-blue2) 85%);
     border-radius: 50px;
 }
+.border-right1{
+    border-right: 1px dashed var(--fc-black);
+    
+}
+.finishes{
+        font-family: 'Poppins', sans-serif;
+        font-size: var(--fs-lg);
+        font-weight: 500;
+        line-height: 36px;
+        
+}
+.pt-92{
+    padding-top: 92px;
+    padding-bottom: 92px;
+}
+.border-bt1{
+    border-bottom:1px dashed var(--fc-black) ;
+}
 
 
 
