@@ -2,8 +2,9 @@
     /* font-size */
     --fs-xsm: 10.24px;
     --fs-sm: 12.8px;
-    --fs-xlg: 16px;
+    --fs-xmd: 16px;
     --fs-md: 18px;
+    --fs-xlg: 20px;
     --fs-lg: 24px;
     --fs-xl: 36px;
     --fs-xxl: 48px;
@@ -17,6 +18,8 @@
     --fc-white: #fff;
     --fc-blue: #010080;
     --fc-green: #d2da60;
+    --fc-primary-green: #d7e167;
+    --fc-pink: #8a3e74;
     --fc-purple: #9003e5;
     --fc-linear-purple1: #9104e5;
     --fc-linear-purple2: #f93b96;

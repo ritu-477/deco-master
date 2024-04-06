@@ -33,10 +33,71 @@
     text-shadow: 0 0 .65px #333, 0 0 .65px;
     transition: 0.3s;
 }
-/* ...................................hero-section............................ */
-.bg-image{
-    
+.bg-image {
+    background-image: url(../images/hero-bgimage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+.max-w-1140px{
+    max-width: 1140px;
+}
+.splash{
+    font-family: 'Poppins', sans-serif;
+        font-size: var(--fs-md);
+        font-style: italic;
+        font-weight: 400;
+        line-height: 27px;
+        color: var(--fc-pink);
+}
+.bring{
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-xl);
+        font-weight: 500;
+        line-height: 54px;
+        color: var(--fc-black);
+}
+.btn-1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-xlg);
+    font-weight: 500;
+    line-height: 30px;
+    outline: none;
+    border: none;
+    padding: 13px 45px;
+    background: transparent;
+    background: linear-gradient(to right, #9305E3 17%, #F93B96 48%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .btn-1:hover{
+         background: linear-gradient(to right, #9305E3 48%, #F93B96 17%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+  
+.btn-box {
+    position: relative;
+}
+
+.btn-box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 4px;
+    background: linear-gradient(45deg, var(--fc-purple),
+        var(--fc-linear-purple2));
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+
+
+
+/* ...................................hero-section............................ */
+
 
 
 
@@ -55,8 +116,9 @@
 
     .iconbox>span {
         width: 100%;
-        height: 5px;
-        background-color: var(--fc-purple);
+        height: 4px;
+        background-color: var(--fc-blue);
+        border-radius: 10px;
     }
 
     .menulist {
