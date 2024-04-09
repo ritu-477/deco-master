@@ -41,7 +41,7 @@
     background-position: center;
 }
 
-.max-w-1140px {
+.max-w-1140 {
     max-width: 1140px;
 }
 
@@ -107,10 +107,9 @@
 
 .m-heading {
     font-family: 'Poppins', sans-serif;
-    font-size: var(--fs-xl);
+    font-size: var(--fs-lg);
     font-weight: 700;
     line-height: 72px;
-    text-align: left;
     color: var(--fc-black);
 }
 
@@ -121,14 +120,16 @@
 
 .absolute1 {
     position: absolute;
-    right: 0;
+    right: -5%;
     top: 15px;
+    z-index: -2;
 }
 
 .absolute2 {
     position: absolute;
-    left: 0;
-    bottom: -90px;
+    left: -5%;
+    bottom: -11%;
+    z-index: -1;
 }
 
 .circle1 {
@@ -248,6 +249,70 @@
     position: relative;
     z-index: 1;
 }
+/* ........................................section-welcome.............*/
+.max-w-1320{
+    max-width: 1320px;
+}
+.absolute3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+.absolute4 {
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+    z-index: -2;
+}
+.ps-35{
+    padding-left: 35px;
+}
+.member{
+    font-family: 'Poppins', sans-serif;
+        font-size: var(--fs-xmd);
+        font-weight: 400;
+        line-height: 27px;
+        color: var(--fc-black);
+        /* white-space: nowrap; */
+}
+.lorem1{
+    font-family: 'Poppins', sans-serif;
+        font-size: var(--fs-md);
+        font-weight: 400;
+        line-height: 27px;
+        color: var(--fc-primary-black);
+        max-width: 648px;
+}
+/* .....................................our-process sec............... */
+.max-w-1878{
+    max-width: 1878px;
+}
+.request{
+    font-family: 'Poppins', sans-serif;
+        font-size: var(--fs-xlg);
+        font-weight: 700;
+        line-height: 36px;
+       color: var(--fc-black);
+       text-align: center;
+       padding-bottom: 19px;
+       white-space: nowrap;
+}
+
+.mtop-150{
+    margin-top: 150px
+}
+  .absolute5 {
+      position: absolute;
+      top: 22%;
+      left: -2%;
+      z-index: -2;
+  }
+
+
+
+
+
 
 
 
@@ -331,6 +396,7 @@
     .border-b1 {
         border-bottom: 1px dashed var(--fc-black);
     }
+    
 
 }
 
@@ -371,4 +437,19 @@
     .decnstruction {
         line-height: 40px;
     }
+        .absolute5 {
+            position: absolute;
+            top: 29%;
+            left: -2%;
+            z-index: -2;
+        }
+               
 }
+/* @media(min-width: 1800px) and (max-width:1920px){
+    .absolute5 {
+            position: absolute;
+            top: 22%;
+            left: -2%;
+            z-index: -2;
+        }
+} */
