@@ -329,7 +329,7 @@
     font-weight: 700;
     line-height: 54px;
     color: var(--fc-blue);
-    
+
 }
 
 .residential {
@@ -367,6 +367,7 @@
     background-color: var(--fc-white);
     color: var(--fc-blue);
 }
+
 .bg-box {
     position: absolute;
     width: 100%;
@@ -376,15 +377,23 @@
     z-index: -1;
     border-radius: 40px;
 }
-.absolute6{
+
+.absolute6 {
     position: absolute;
-    top:27%;
+    top: 27%;
     left: 14%;
-    z-index: -1;;
+    z-index: -1;
+    ;
 }
 
 .max-wimg {
     max-width: 753px;
+}
+
+.absolute7 {
+    position: absolute;
+    top: 23%;
+    right: 12%;
 }
 
 /* our services- section2.................................*/
@@ -397,12 +406,13 @@
     z-index: -1;
     border-radius: 40px;
 }
-.absolute8{
+
+.absolute8 {
     position: absolute;
-        top: 11%;
-        left: 4%;
-      
+    top: 11%;
+    left: 4%;
 }
+
 
 
 
@@ -493,13 +503,14 @@
     .border-b1 {
         border-bottom: 1px dashed var(--fc-black);
     }
-         .counting {
-             line-height: 72px;
-         }
-    
-         .residential {
-             line-height: 54px;
-         }
+
+    .counting {
+        line-height: 72px;
+    }
+
+    .residential {
+        line-height: 54px;
+    }
 
 
 }
@@ -527,31 +538,37 @@
         line-height: 96px;
     }
 
-    .residential{
+    .residential {
         line-height: 72px;
     }
-        .bg-box {
-            position: absolute;
-            width: 1774px;
-            height: 365px;
-            bottom: -50px;
-            right: 0;
-            background-color: var(--fc-gray);
-            z-index: -1;
-            border-radius: 40px;
-        }
-                .bg-box1 {
-                    position: absolute;
-                    width: 1774px;
-                    height: 365px;
-                    bottom: -50px;
-                    left: 0;
-                    background-color: var(--fc-gray);
-                    z-index: -1;
-                    border-radius: 40px;
-                }
-            
-        
+
+    .bg-box {
+        position: absolute;
+        width: 1774px;
+        height: 365px;
+        bottom: -50px;
+        right: 0;
+        background-color: var(--fc-gray);
+        z-index: -1;
+        border-radius: 40px;
+    }
+
+    .bg-box1 {
+        position: absolute;
+        width: 1774px;  
+        height: 365px;
+        bottom: -50px;
+        left: 0;
+        background-color: var(--fc-gray);
+        z-index: -1;
+        border-radius: 40px;
+    }
+
+    .ps-100 {
+        padding-left: 120px;
+    }
+
+
 }
 
 @media(min-width:992px) and (max-width:1199.99px) {
