@@ -397,6 +397,12 @@
     z-index: -1;
     border-radius: 40px;
 }
+.absolute8{
+    position: absolute;
+        top: 11%;
+        left: 4%;
+      
+}
 
 
 
