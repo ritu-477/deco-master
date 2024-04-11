@@ -4,7 +4,8 @@
     --fs-sm: 12.8px;
     --fs-xxmd: 14px;
     --fs-xmd: 17px;
-    --fs-md: 18px;
+    --fs-md: 16px;
+    --fs-xxxlg: 18px;
     --fs-xxlg: 20px;
     --fs-xlg: 24px;
     --fs-lg: 32px;
@@ -46,6 +47,39 @@
     .decnstruction {
         --fs-xlg: 36px;
     }
+
+    .residential {
+        --fs-md: 35px;
+    }
+
+    .lorem2 {
+        --fs-xxmd: 18px;
+    }
+
+    .counting {
+        --fs-xl: 48px;
+    }
+        
+
+}
+@media(min-width:768){
+    .counting {
+            --fs-xl: 64px;
+        }
+    
+        .residential {
+            --fs-md: 48px;
+        }
+}
+
+@media(min-width:1200px) {
+    .counting {
+        --fs-xl: 64px;
+    }
+
+    .residential {
+        --fs-md: 48px;
+    }
 }
 
 @media(min-width:992px) and (max-width:1200px) {
@@ -56,6 +90,14 @@
     .decnstruction {
         --fs-xlg: 16px;
     }
+          .counting {
+              --fs-xl: 48px;
+          }
+    
+          .residential {
+              --fs-md: 35px;
+          }
+
 }
 
 @media(min-width:1200px) and (max-width:1800px) {
