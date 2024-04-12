@@ -552,7 +552,41 @@
     bottom: 0;
     right: 0;
 }
-
+/* .............................................testimonials section */
+ .max-w1333{
+    max-width: 1333px;
+ }
+ .absolute14{
+    position: absolute;
+        top: 0;
+        left: 0;
+ }
+  .absolute15 {
+      position: absolute;
+      top: -50%;
+      right: 0;
+      z-index: -1;
+  }
+  .max-wimg2{
+    max-width: 251px;
+  }
+  .lorem6{
+font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-xxxlg);
+        font-weight: 400;
+        line-height: 27px;
+        color: var(--fc-black);
+        max-width: 292px;
+        text-align: center;
+  }
+  .diane{
+    font-family: 'Poppins', sans-serif;
+        font-size: var(--fs-xxxlg);
+        font-weight: 700;
+        line-height: 27px;
+        max-width: 129px;
+        white-space: nowrap;
+  }
 
 
 
