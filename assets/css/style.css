@@ -547,47 +547,115 @@
 .pb-180 {
     padding-bottom: 100px;
 }
-.absolute13{
+
+.absolute13 {
     position: absolute;
     bottom: 0;
     right: 0;
 }
-/* .............................................testimonials section */
- .max-w1333{
-    max-width: 1333px;
- }
- .absolute14{
-    position: absolute;
-        top: 0;
-        left: 0;
- }
-  .absolute15 {
-      position: absolute;
-      top: -50%;
-      right: 0;
-      z-index: -1;
-  }
-  .max-wimg2{
-    max-width: 251px;
-  }
-  .lorem6{
-font-family: 'Poppins', sans-serif;
-    font-size: var(--fs-xxxlg);
-        font-weight: 400;
-        line-height: 27px;
-        color: var(--fc-black);
-        max-width: 292px;
-        text-align: center;
-  }
-  .diane{
-    font-family: 'Poppins', sans-serif;
-        font-size: var(--fs-xxxlg);
-        font-weight: 700;
-        line-height: 27px;
-        max-width: 129px;
-        white-space: nowrap;
-  }
 
+/* .............................................testimonials section */
+.max-w1333 {
+    max-width: 1333px;
+}
+
+.absolute14 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.absolute15 {
+    position: absolute;
+    top: -50%;
+    right: 0;
+    z-index: -1;
+}
+
+.max-wimg2 {
+    max-width: 251px;
+}
+
+.lorem6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-xxxlg);
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--fc-black);
+    max-width: 292px;
+    text-align: center;
+}
+
+.diane {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-xxxlg);
+    font-weight: 700;
+    line-height: 27px;
+    max-width: 129px;
+    white-space: nowrap;
+}
+
+/* ...................................newsletter section done ........... */
+.absolute16 {
+    position: absolute;
+    bottom: 40%;
+    left: 0;
+    z-index: -1;
+}
+
+.absolute17 {
+    position: absolute;
+    bottom: 14%;
+    right: 0;
+    z-index: -1;
+}
+.newsletter {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-xl);
+    font-weight: 700;
+    line-height: 216px;
+    /* background: linear-gradient(90deg, #9104E5 0%, #F93B96 96.47%); */
+    background: linear-gradient(to right, var(--fc-linear-purple1) 0%, var(--fc-linear-purple2) 96.47%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: .4;
+    z-index: 1;
+}
+
+.newsletter-box {
+    max-width: 1320px;
+    min-height: 394px;
+    background-color: var(--fc-primary-gray);
+    border-radius: 45px;
+    transform: translateY(-45%);
+    z-index: -1;
+    padding: 16px;
+}
+
+.btn-subscribe {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-xxlg);
+    font-weight: 500;
+    line-height: 30px;
+    padding: 24px 49px;
+    background-color: var(--fc-blue);
+    border: 1px solid var(--fc-blue);
+    color: var(--fc-white);
+}
+
+.mail-here {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-md);
+    font-weight: 400;
+    line-height: 36px;
+    outline: none;
+    color: var(--fc-primary-black);
+    padding: 22px 40px;
+    border: none;
+    background-color: var(--fc-white);
+    width: 100%;
+
+}
 
 
 
@@ -702,6 +770,13 @@ font-family: 'Poppins', sans-serif;
         margin-right: 0;
     }
 
+    .mail-here {
+        width: 500px;
+    }
+   
+         .newsletter-box {
+             transform: translateY(-27%);4
+         }
 
 }
 
@@ -739,6 +814,13 @@ font-family: 'Poppins', sans-serif;
         left: 37px;
     }
 
+    .mail-here {
+        width: 672px;
+    }
+        .newsletter-box {
+            padding: 0;
+        }
+
 }
 
 @media(min-width:992px) {
@@ -748,9 +830,13 @@ font-family: 'Poppins', sans-serif;
         max-height: 493px;
         background-color: var(--fc-blue);
     }
-        .pb-180 {
-            padding-bottom: 180px;
-        }
+
+    .pb-180 {
+        padding-bottom: 180px;
+    }
+         .newsletter-box {
+             transform: translateY(-25%);
+         }
 }
 
 @media(min-width:1200px) {
@@ -792,28 +878,32 @@ font-family: 'Poppins', sans-serif;
         padding-top: 115px;
         padding-bottom: 115px;
     }
-    
+
+    .pb-115 {
+        padding-bottom: 115px;
+    }
 }
 
 @media(min-width:1400px) {
     .absolute11 {
-            position: absolute;
-            left: 35%;
-            top: 27%;
-            z-index: 2;
-            transform: translateX(80px);
-        }
-    
-        .absolute12 {
-            position: absolute;
-            right: -3%;
-            top: 27%;
-            z-index: 2;
-        }
-        .pe-50{
-            padding-right: 80px;
-        }
-       
+        position: absolute;
+        left: 35%;
+        top: 27%;
+        z-index: 2;
+        transform: translateX(80px);
+    }
+
+    .absolute12 {
+        position: absolute;
+        right: -3%;
+        top: 27%;
+        z-index: 2;
+    }
+
+    .pe-50 {
+        padding-right: 80px;
+    }
+
 }
 
 @media(min-width:992px) and (max-width:1199.99px) {
