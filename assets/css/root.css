@@ -59,6 +59,12 @@
     .counting {
         --fs-xl: 48px;
     }
+    .lorem3{
+        --fs-sm:18px;
+    }
+         .lorem4 {
+             --fs-sm: 18px;
+         }
         
 
 }
@@ -78,7 +84,7 @@
     }
 
     .residential {
-        --fs-md: 48px;
+        --fs-md: 46px;
     }
 }
 
