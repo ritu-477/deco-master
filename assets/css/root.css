@@ -80,6 +80,15 @@
 
 @media(min-width:1200px) {
     .counting {
+        --fs-xl: 58px;
+    }
+
+    .residential {
+        --fs-md: 46px;
+    }
+}
+@media(min-width:1240px) {
+    .counting {
         --fs-xl: 64px;
     }
 
@@ -96,14 +105,7 @@
     .decnstruction {
         --fs-xlg: 16px;
     }
-          .counting {
-              --fs-xl: 48px;
-          }
     
-          .residential {
-              --fs-md: 35px;
-          }
-
 }
 
 @media(min-width:1200px) and (max-width:1800px) {
