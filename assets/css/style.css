@@ -609,6 +609,7 @@
     right: 0;
     z-index: -1;
 }
+
 .newsletter {
     font-family: 'Poppins', sans-serif;
     font-size: var(--fs-xl);
@@ -640,6 +641,14 @@
     background-color: var(--fc-blue);
     border: 1px solid var(--fc-blue);
     color: var(--fc-white);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-subscribe:hover {
+    color: var(--fc-blue) !important;
+    background: var(--fc-white) !important;
+    transition: 1s !important;
 }
 
 .mail-here {
@@ -653,63 +662,76 @@
     border: none;
     background-color: var(--fc-white);
     width: 100%;
+    border-radius: 5px;
 }
+
 /*............................................. footer...................... */
-.max-w1322{
+.max-w1322 {
     max-width: 1322px;
 }
-.bg-color-2{
+
+.bg-color-2 {
     background-color: var(--fc-black);
 }
-.circle-5{
-     width: 40px;
-     height: 40px;
-     border-radius: 50px;
-     background-color: var(--fc-light-gray);
-    
+
+.circle-5 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: var(--fc-light-gray);
+
 }
-.circle-5:hover{
+
+.circle-5:hover {
     background-color: var(--fc-white);
     transition: 1s;
 }
-.circle-5:hover svg path{
+
+.circle-5:hover svg path {
     fill: var(--fc-black);
 }
-cursor{
+
+cursor {
     cursor: pointer;
 }
-.py-60{
+
+.py-60 {
     padding-top: 56px;
     padding-bottom: 60px;
 }
-.lorem7{
+
+.lorem7 {
     font-family: 'Poppins', sans-serif;
-        font-size: var(--fs-md);
-        font-weight: 400;
-        line-height: 27px;
-        color: var(--fc-white);
-        max-width: 536px;
-        padding-top: 8px;
-        padding-bottom: 24px;
+    font-size: var(--fs-md);
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--fc-white);
+    max-width: 536px;
+    padding-top: 8px;
+    padding-bottom: 24px;
 }
-.maximg{
+
+.maximg {
     max-width: 198px;
 }
-.home1{
-font-family: 'Poppins', sans-serif;
-    font-size: var(--fs-md);
-        font-weight: 600;
-        line-height: 27px;
-        color: var(--fc-white);
-}
-.link-1{
+
+.home1 {
     font-family: 'Poppins', sans-serif;
-        font-size: var(--fs-md);
-        font-weight: 400;
-        line-height: 27px;
-        color: var(--fc-white);
+    font-size: var(--fs-md);
+    font-weight: 600;
+    line-height: 27px;
+    color: var(--fc-white);
 }
-.pb-14{
+
+.link-1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-md);
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--fc-white);
+}
+
+.pb-14 {
     padding-bottom: 14px;
 }
 
@@ -829,10 +851,10 @@ font-family: 'Poppins', sans-serif;
     .mail-here {
         width: 500px;
     }
-   
-         .newsletter-box {
-             transform: translateY(-27%);4
-         }
+
+    .newsletter-box {
+        transform: translateY(-27%);
+    }
 
 }
 
@@ -873,9 +895,10 @@ font-family: 'Poppins', sans-serif;
     .mail-here {
         width: 672px;
     }
-        .newsletter-box {
-            padding: 0;
-        }
+
+    .newsletter-box {
+        padding: 0;
+    }
 
 }
 
@@ -890,9 +913,10 @@ font-family: 'Poppins', sans-serif;
     .pb-180 {
         padding-bottom: 180px;
     }
-         .newsletter-box {
-             transform: translateY(-25%);
-         }
+
+    .newsletter-box {
+        transform: translateY(-25%);
+    }
 }
 
 @media(min-width:1200px) {
