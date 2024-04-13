@@ -614,7 +614,6 @@
     font-size: var(--fs-xl);
     font-weight: 700;
     line-height: 216px;
-    /* background: linear-gradient(90deg, #9104E5 0%, #F93B96 96.47%); */
     background: linear-gradient(to right, var(--fc-linear-purple1) 0%, var(--fc-linear-purple2) 96.47%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -654,7 +653,64 @@
     border: none;
     background-color: var(--fc-white);
     width: 100%;
-
+}
+/*............................................. footer...................... */
+.max-w1322{
+    max-width: 1322px;
+}
+.bg-color-2{
+    background-color: var(--fc-black);
+}
+.circle-5{
+     width: 40px;
+     height: 40px;
+     border-radius: 50px;
+     background-color: var(--fc-light-gray);
+    
+}
+.circle-5:hover{
+    background-color: var(--fc-white);
+    transition: 1s;
+}
+.circle-5:hover svg path{
+    fill: var(--fc-black);
+}
+cursor{
+    cursor: pointer;
+}
+.py-60{
+    padding-top: 56px;
+    padding-bottom: 60px;
+}
+.lorem7{
+    font-family: 'Poppins', sans-serif;
+        font-size: var(--fs-md);
+        font-weight: 400;
+        line-height: 27px;
+        color: var(--fc-white);
+        max-width: 536px;
+        padding-top: 8px;
+        padding-bottom: 24px;
+}
+.maximg{
+    max-width: 198px;
+}
+.home1{
+font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-md);
+        font-weight: 600;
+        line-height: 27px;
+        color: var(--fc-white);
+}
+.link-1{
+    font-family: 'Poppins', sans-serif;
+        font-size: var(--fs-md);
+        font-weight: 400;
+        line-height: 27px;
+        color: var(--fc-white);
+}
+.pb-14{
+    padding-bottom: 14px;
 }
 
 
