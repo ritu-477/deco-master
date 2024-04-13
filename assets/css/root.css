@@ -34,6 +34,7 @@
     --fc-linear-blue2: #0185d3;
     --fc-linear-primary-blue1: #7142a2;
     --fc-linear-primary-blue2: #b31376;
+    --fc-shadow: #333;
 }
 
 @media(min-width:576px) {
@@ -72,20 +73,15 @@
     .newsletter {
         --fs-xl: 70px;
     }
-    .mail-here{
+
+    .mail-here {
         --fs-md: 24px;
     }
-
-
 }
 
-@media(min-width:768) {
-    .counting {
-        --fs-xl: 64px;
-    }
-
-    .residential {
-        --fs-md: 48px;
+@media(min-width:768px) {
+    .newsletter {
+        --fs-xl: 105px;
     }
 }
 

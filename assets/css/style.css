@@ -30,7 +30,7 @@
 
 .home:hover {
     color: var(--fc-purple);
-    text-shadow: 0 0 .65px #333, 0 0 .65px;
+    text-shadow: 0 0 .65px var(--fc-shadow), 0 0 .65px;
     transition: 0.3s;
 }
 
@@ -71,13 +71,13 @@
     border: none;
     padding: 13px 45px;
     background: transparent;
-    background: linear-gradient(to right, #9305E3 17%, #F93B96 48%);
+    background: linear-gradient(to right, var(--fc-purple) 17%, var(--fc-linear-purple2) 48%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .btn-1:hover {
-    background: linear-gradient(to right, #9305E3 48%, #F93B96 17%);
+    background: linear-gradient(to left, var(--fc-purple) 40%, var(--fc-linear-purple2) 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -279,7 +279,6 @@
     font-weight: 400;
     line-height: 27px;
     color: var(--fc-black);
-    /* white-space: nowrap; */
 }
 
 .lorem1 {
@@ -308,7 +307,7 @@
 }
 
 .mtop-150 {
-    margin-top: 150px
+    margin-top: 100px
 }
 
 .absolute5 {
@@ -508,7 +507,7 @@
 }
 
 .padding-pb {
-    padding-bottom: 251px;
+    padding-bottom: 60px;
 }
 
 /* .....................................................our-team section.............. */
@@ -545,7 +544,7 @@
 }
 
 .pb-180 {
-    padding-bottom: 100px;
+    padding-bottom: 60px;
 }
 
 .absolute13 {
@@ -619,7 +618,8 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     opacity: .4;
-    z-index: 1;
+    position: relative;
+    z-index: 5;
 }
 
 .newsletter-box {
@@ -628,7 +628,6 @@
     background-color: var(--fc-primary-gray);
     border-radius: 45px;
     transform: translateY(-45%);
-    z-index: -1;
     padding: 16px;
 }
 
@@ -637,7 +636,7 @@
     font-size: var(--fs-xxlg);
     font-weight: 500;
     line-height: 30px;
-    padding: 24px 49px;
+    padding: 15px 30px;
     background-color: var(--fc-blue);
     border: 1px solid var(--fc-blue);
     color: var(--fc-white);
@@ -691,10 +690,6 @@
     fill: var(--fc-black);
 }
 
-cursor {
-    cursor: pointer;
-}
-
 .py-60 {
     padding-top: 56px;
     padding-bottom: 60px;
@@ -721,6 +716,7 @@ cursor {
     font-weight: 600;
     line-height: 27px;
     color: var(--fc-white);
+    cursor: none;
 }
 
 .link-1 {
@@ -735,12 +731,42 @@ cursor {
     padding-bottom: 14px;
 }
 
+.bottom-line {
+    border-bottom: 1px solid var(--fc-white);
+}
+
+.copyright {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-md);
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--fc-white);
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+
+.elipsBtn {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    border: none;
+    outline: none;
+    background-color: var(--fc-purple);
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.elipsBtn.show {
+    display: block;
+}
 
 
+/* .....................................media-query............................. */
 
 
-
-@media(max-width:1200px) {
+@media(max-width:992px) {
     .iconbox {
         width: 30px;
         height: 30px;
@@ -771,7 +797,7 @@ cursor {
         z-index: 1;
         right: -100%;
         transition: all 300ms linear;
-        background-color: var(--fc-green);
+        background-color: var(--fc-white);
     }
 
     .overflow-hidden {
@@ -782,8 +808,6 @@ cursor {
         right: 0;
     }
 }
-
-
 
 @media(min-width:400px) {
     .box1 {
@@ -856,6 +880,14 @@ cursor {
         transform: translateY(-27%);
     }
 
+    .padding-pb {
+        padding-bottom: 150px;
+    }
+
+    .btn-subscribe {
+        padding: 24px 49px;
+    }
+
 }
 
 @media(min-width:768px) {
@@ -910,10 +942,6 @@ cursor {
         background-color: var(--fc-blue);
     }
 
-    .pb-180 {
-        padding-bottom: 180px;
-    }
-
     .newsletter-box {
         transform: translateY(-25%);
     }
@@ -962,6 +990,14 @@ cursor {
     .pb-115 {
         padding-bottom: 115px;
     }
+
+    .padding-pb {
+        padding-bottom: 251px;
+    }
+
+    .mtop-150 {
+        margin-top: 150px
+    }
 }
 
 @media(min-width:1400px) {
@@ -982,6 +1018,10 @@ cursor {
 
     .pe-50 {
         padding-right: 80px;
+    }
+
+    .pb-180 {
+        padding-bottom: 180px;
     }
 
 }
@@ -1008,16 +1048,10 @@ cursor {
 
     .absolute5 {
         position: absolute;
-        top: 29%;
+        top: 30%;
         left: -2%;
         z-index: -2;
     }
 
 
 }
-
-/* 
- @media(min-width: 992px) and (max-width:1240px){
-    
-
-}  */
