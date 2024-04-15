@@ -41,10 +41,6 @@
     background-position: center;
 }
 
-.max-w-1140 {
-    max-width: 1140px;
-}
-
 .splash {
     font-family: 'Poppins', sans-serif;
     font-size: var(--fs-md);
@@ -333,7 +329,7 @@
 
 .residential {
     font-family: 'Poppins', sans-serif;
-    font-size: var(--fs-md);
+    font-size: var(--fs-xxxlg);
     font-weight: 500;
     line-height: 27px;
     color: var(--fc-black);
@@ -762,7 +758,6 @@
     display: block;
 }
 
-
 /* .....................................media-query............................. */
 
 
@@ -978,9 +973,6 @@
         border-radius: 40px;
     }
 
-    .ps-100 {
-        padding-left: 120px;
-    }
 
     .py-sec-1 {
         padding-top: 115px;
